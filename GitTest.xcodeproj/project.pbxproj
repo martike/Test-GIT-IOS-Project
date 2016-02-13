@@ -21,6 +21,7 @@
 		61DB0D531C6EAC6B006ADE96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DB0D351C6EAC6B006ADE96 /* UIKit.framework */; };
 		61DB0D5B1C6EAC6B006ADE96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61DB0D591C6EAC6B006ADE96 /* InfoPlist.strings */; };
 		61DB0D5D1C6EAC6B006ADE96 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DB0D5C1C6EAC6B006ADE96 /* GitTestTests.m */; };
+		61DB0D681C6EB259006ADE96 /* KMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DB0D671C6EB259006ADE96 /* KMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		61DB0D581C6EAC6B006ADE96 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		61DB0D5A1C6EAC6B006ADE96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61DB0D5C1C6EAC6B006ADE96 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		61DB0D661C6EB259006ADE96 /* KMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTest.h; sourceTree = "<group>"; };
+		61DB0D671C6EB259006ADE96 /* KMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				61DB0D411C6EAC6B006ADE96 /* KMAppDelegate.m */,
 				61DB0D431C6EAC6B006ADE96 /* Main.storyboard */,
 				61DB0D461C6EAC6B006ADE96 /* KMViewController.h */,
+				61DB0D661C6EB259006ADE96 /* KMTest.h */,
+				61DB0D671C6EB259006ADE96 /* KMTest.m */,
 				61DB0D471C6EAC6B006ADE96 /* KMViewController.m */,
 				61DB0D491C6EAC6B006ADE96 /* Images.xcassets */,
 				61DB0D381C6EAC6B006ADE96 /* Supporting Files */,
@@ -253,6 +258,7 @@
 				61DB0D481C6EAC6B006ADE96 /* KMViewController.m in Sources */,
 				61DB0D421C6EAC6B006ADE96 /* KMAppDelegate.m in Sources */,
 				61DB0D3E1C6EAC6B006ADE96 /* main.m in Sources */,
+				61DB0D681C6EB259006ADE96 /* KMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
